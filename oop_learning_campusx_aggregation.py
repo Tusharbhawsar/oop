@@ -15,7 +15,7 @@ class Address:
         self.city = city
         self.pincode = pincode
         self.state = state
-    #5rd step
+    #5th step
     def change_address(self,new_city,new_pincode,new_state):
         self.city = new_city
         self.pincode = new_pincode
@@ -26,6 +26,7 @@ add = Address("indore",452005,"mp")
 #3step
 cust = Customer("tushar","male",add)
 
+# print(dir(cust))
 print(cust.address.city)
 
 cust.edit_profile("ritik","Mini Mumbai",452006,"mp")
