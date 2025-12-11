@@ -1,6 +1,6 @@
 from fastapi import FastAPI,Path,HTTPException,Query
 import json
-from utils import Utils
+from config.useful_fun import Utils
 
 app = FastAPI()
 # def load_json():
